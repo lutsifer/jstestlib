@@ -1,0 +1,86 @@
+{
+  "_from": "zencashjs",
+  "_id": "zencashjs@1.1.9-a",
+  "_inBundle": false,
+  "_integrity": "sha512-NIUya4VHrNyXLhv6v4Dda8wvBep+Wd3g5MMsFAFASwURvNzUd9PaZM7f1cnHjy9hzPLmbO3g1VQFqpQY46hstA==",
+  "_location": "/zencashjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zencashjs",
+    "name": "zencashjs",
+    "escapedName": "zencashjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/zencashjs/-/zencashjs-1.1.9-a.tgz",
+  "_shasum": "cbaffbe06e261301850a9f0b5326e12ecf9543c5",
+  "_spec": "zencashjs",
+  "_where": "/home/stefan/WebstormProjects/untitled6",
+  "author": {
+    "name": "Kendrick Tan",
+    "email": "kendricktan0814@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ZencashOfficial/zencashjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "bs58": "^4.0.1",
+    "bs58check": "^2.0.2",
+    "chai": "^4.1.0",
+    "create-hash": "^1.1.3",
+    "create-hmac": "^1.1.6",
+    "elliptic": "^6.4.0",
+    "eslint": "^4.10.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.51.0",
+    "int64-buffer": "^0.1.9",
+    "libsodium-wrappers-sumo": "^0.5.2",
+    "mocha": "^3.4.2",
+    "mocha-webpack": "^1.0.1",
+    "pushdata-bitcoin": "^1.0.1",
+    "safe-buffer": "^5.1.1",
+    "secp256k1": "^3.3.0",
+    "varint": "^5.0.0",
+    "varuint-bitcoin": "^1.0.4",
+    "webpack": "^3.8.1",
+    "yargs": "^10.0.3"
+  },
+  "deprecated": false,
+  "description": "Dead easy to use Zencash JavaScript based library",
+  "devDependencies": {},
+  "homepage": "https://github.com/ZencashOfficial/zencashjs#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "zencashjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZencashOfficial/zencashjs.git"
+  },
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "clean": "rm -rf ./lib && mkdir lib",
+    "dev": "babel --watch src/ -d lib/",
+    "test": "mocha"
+  },
+  "version": "1.1.9-a"
+}
